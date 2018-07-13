@@ -44,4 +44,17 @@ Why Yarn? Yarn helps to install Node.js module faster than `npm install`. For ex
 # Creating React Native projects
 `react-native init SampleProject`
 
+# Run the project
+To run the app on Android:
+`react-native run-android`
 
+To run on iOS:
+`react-native run-ios`
+
+This command will run the app on iOS simulator only. If you want to run on physical device, install the following module
+
+`npm install -g ios-deploy`
+
+and then run:
+
+`react-native run-ios --device`

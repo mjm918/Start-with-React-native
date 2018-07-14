@@ -3,8 +3,12 @@
 React-Native works depending on Node.js. Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code server-side. In mobile development, Node.js helps React-naitve to interact with system APIs.
 
 # Windows
-To install Node.js on windows, download Node.js from this link:
-`https://nodejs.org/en/`
+Run `Powershell` with adminstrative permissions and run this to install chocolatey:
+
+`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+
+Then run this to install JDK,NodeJS and Python2:
+`choco install -y nodejs.install python2 jdk8`
 
 < Troubleshooting >
 

@@ -59,6 +59,10 @@ This command will run the app on iOS simulator only. If you want to run on physi
 
 `npm install -g ios-deploy`
 
+For OS X 10.11 El Capitan or greater:
+
+`npm install -g ios-deploy --unsafe-perm=true --allow-root`
+
 and then run:
 
 `react-native run-ios --device`
